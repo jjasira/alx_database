@@ -7,3 +7,4 @@ SELECT COLUMN_NAME AS 'Field', COLUMN_TYPE AS 'Type', IS_NULLABLE AS 'Null', COL
        COLUMN_DEFAULT AS 'Default', EXTRA
 FROM information_schema.COLUMNS
 WHERE TABLE_NAME = 'first_table';
+
